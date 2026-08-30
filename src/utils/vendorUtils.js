@@ -8,8 +8,9 @@ export function filterVendors(vendors, search, filters) {
       if (!matchesName && !matchesCategory) return false;
     }
 
-    // Filter by category
-    if (filters.category && vendor.category !== filters.category) return false;
+    if (filters.categories && filters.categories.length > 0) {
+      if (!filters.categories.includes(vendor.category)) return false;
+    }
 
     // Filter by open status
     if (filters.openOnly && !vendor.open_status) return false;
