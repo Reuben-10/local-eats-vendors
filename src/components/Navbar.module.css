@@ -1,0 +1,26 @@
+.header {
+  z-index: 1030;
+}
+
+.navbar {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navLinkActive {
+  color: #F2760F !important;
+  border-bottom: 2px solid #F2760F;
+}
+
+.logo {
+  height: 40px;
+}
+
+.brand {
+  color: #337357;
+}
+
+.navLink {
+  color: #337357;
+}

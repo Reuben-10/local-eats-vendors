@@ -1,0 +1,68 @@
+
+.footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+
+.brand {
+  color: #337357;
+}
+
+.socialBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #337357;
+  text-decoration: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.socialBtn:hover {
+  border-color: #337357;
+  color: #337357;
+}
+
+.quickLink {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.quickLink:hover {
+  color: #337357;
+}
+
+.subscribeInput {
+  border-radius: 999px 0 0 999px;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.subscribeBtn {
+  border-radius: 0 999px 999px 0;
+  background-color: #F2760F;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.subscribeBtn:hover {
+  background-color: #d4650c;
+}
+
+.copyright {
+  color: #888;
+  font-size: 14px;
+}
