@@ -8,6 +8,10 @@ A responsive food vendor listing application built for the Local Eats Africa Fro
 
 A two-page web application that allows users to browse, search, filter, and sort food vendors on the Local Eats Africa platform. Vendor data is retrieved from a REST API and displayed in a clean, responsive interface.
 
+## Live Demo
+
+[https://local-eats-vendors.vercel.app/](https://local-eats-vendors.vercel.app/)
+
 ---
 
 ## Technologies Used
