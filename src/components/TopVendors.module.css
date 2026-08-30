@@ -1,0 +1,24 @@
+.section {
+  background-color: #fff;
+}
+
+.title {
+  color: #337357;
+  text-align: center;
+}
+
+.seeAllBtn {
+  background-color: #337357;
+  color: #fff;
+  border-radius: 999px;
+  border: none;
+  padding: 12px 36px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.seeAllBtn:hover {
+  background-color: #2a5f47;
+  color: #fff;
+}

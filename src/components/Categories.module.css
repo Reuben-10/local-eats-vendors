@@ -1,0 +1,39 @@
+.section {
+  background-color: #f9f9f9;
+}
+
+.title {
+  color: #337357;
+  text-align: center;
+}
+
+.pillRow {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 12px;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+}
+
+.pillRow::-webkit-scrollbar {
+  display: none;
+}
+
+.pill {
+  flex-shrink: 0;
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: 1.5px solid #337357;
+  color: #337357;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.pill:hover {
+  background-color: #337357;
+  color: #fff;
+}

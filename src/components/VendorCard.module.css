@@ -1,0 +1,84 @@
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badgeOpen {
+  background-color: #e6f4ee;
+  color: #337357;
+}
+
+.badgeClosed {
+  background-color: #f0f0f0;
+  color: #888;
+}
+
+.content {
+  padding: 16px;
+}
+
+.storeName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.category {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: #555;
+}
+
+.rating {
+  color: #F2760F;
+  font-weight: 600;
+}
+
+.starIcon{
+  margin-bottom: 4px;
+}
+
+.divider {
+  color: #ddd;
+}
